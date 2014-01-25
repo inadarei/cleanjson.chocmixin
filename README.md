@@ -12,9 +12,9 @@ In the Chocolat application menu, find:
 
     Actions -> Install Mixins…
     
-dialog, find and install CleanJSONFormatter plugin.
+dialog, find and install `cleanjson` mixin.
 
-When installed, you can format a JSON snippet by selecting it and pressing `Cmd+Alt+J` or from menu: 
+When installed, you can format a JSON snippet by selecting it and pressing `Cmd+Alt+J` or from the menu: 
 
     Actions -> Javascript -> JSON -> Clean Formatting.    
 
