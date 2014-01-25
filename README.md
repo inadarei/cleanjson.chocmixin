@@ -8,9 +8,15 @@ A mixin for the awesome [Chocolat](http://chocolatapp.com) text editor that adds
 
 ## Installation
 
-In the system menu:
+In the Chocolat application menu, find:
 
-    Actions -> Mixins…
+    Actions -> Install Mixins…
+    
+dialog, find and install CleanJSONFormatter plugin.
+
+When installed, you can format a JSON snippet by selecting it and pressing `Cmd+Alt+J` or from menu: 
+
+    Actions -> Javascript -> JSON -> Clean Formatting.    
 
 ## License 
 

@@ -1,5 +1,5 @@
 {
-	"name": "cleanjsonchocmixin",
+	"name": "CleanJSONFormatter",
 	"version": "0.1.0",
 	"description": "Clean JSON Formatting",
 	"main": "init.js",
