@@ -1,6 +1,6 @@
 # Clean JSON for Chocolat. 
 
-A mixin for the awesome [Chocolat](http://chocolatapp.com) text editor that adds the ability to clean formatting of a JSON snippet.
+A mixin for the awesome [Chocolat](http://chocolatapp.com) text editor that adds the ability to cleanly format a JSON snippet.
 
 ## Tested with 
 
