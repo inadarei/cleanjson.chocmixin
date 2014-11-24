@@ -9,7 +9,7 @@
 
 var cj = require('cleanjson');
 
-Hooks.addMenuItem('Actions/Javascript/JSON/Clean Formatting', 'cmd-alt-j', function() {
+Hooks.addMenuItem('Actions/JavaScript/JSON/Clean Formatting', 'cmd-alt-j', function() {
 	Recipe.run(function(recipe) {
 		
 		var sel = (!recipe.selection.length)? new Range(0, recipe.length) : recipe.selection
