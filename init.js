@@ -20,7 +20,12 @@ Hooks.addMenuItem('Actions/JavaScript/JSON/Clean Formatting', 'cmd-alt-j', funct
 			if (!err)	{
 				recipe.replaceTextInRange(sel, output);
 			} else {
-				Alert.show('Malformed JSON. Please fix and try again.');
+  			try {
+          var jsonlint = require("jsonlint");          
+          jsonlint.parse(text);
+        } catch(exception) {
+          Alert.show('Malformed JSON. Please fix and try again: \n ' + exception);
+        }				
 			}
 		});		
 

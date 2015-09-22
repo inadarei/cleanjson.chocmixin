@@ -1,21 +1,22 @@
 {
-	"name": "CleanJSONFormatter",
-	"version": "0.1.2",
-	"description": "Clean JSON Formatting",
-	"main": "init.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/inadarei/cleanjson.chocmixin.git"
-	},
-	"keywords": [
-		"json",
-		"prettify",
-		"clean",
-		"format"
-	],
-	"author": "Irakli Nadareishvili <irakli@gmail.com>",
-	"license": "MIT",
-	"dependencies": {
-		"cleanjson": "^0.1.2"
-	}
+  "name": "CleanJSONFormatter",
+  "version": "0.2.0",
+  "description": "Clean JSON Formatting",
+  "main": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inadarei/cleanjson.chocmixin.git"
+  },
+  "keywords": [
+    "json",
+    "prettify",
+    "clean",
+    "format"
+  ],
+  "author": "Irakli Nadareishvili <irakli@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cleanjson": "^0.1.2",
+    "jsonlint": "^1.6.2"
+  }
 }
